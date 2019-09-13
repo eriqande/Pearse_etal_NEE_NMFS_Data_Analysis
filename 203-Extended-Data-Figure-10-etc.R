@@ -16,6 +16,8 @@ dataSub<-d4
 df<-tbl_df(dataSub)
 df<-select(df, Pop_ID, InversionFreq, N, Latitude, Longitude)
 
+
+#### DOWNLOAD WORLD CLIM DATA TO CONTINUE 
 # Download tmean_*.bil from https://www.worldclim.org/
 months<-c("January","February","March","April","May","June","July","August","September","October","November","December")
 merged=raster(paste("./tmean_","1",".bil",sep=""))
