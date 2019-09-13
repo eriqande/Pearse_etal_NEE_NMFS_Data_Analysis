@@ -22,5 +22,10 @@ unless noted otherwise in the code (i.e., some are from GitHub repositories.)
 A few large, standard data sources like the WorldClim data set and Natural Earth Data
 which were used in analyses are not included here.  Those wishing to reproduce the
 results will need to acquire those and modify the scripts to have appropriate path
-references to those sources.
+references to those sources. In particular:
+
+- 203-Extended-Data-Figure-10-etc.R requires dowlnoading publicly available WorldClim data (see code comments for specifics).
+- 301-Main-Paper-Figure-2-e.R requires downloading a number of publicly available spatial data sets (see code comments for specifics).
+
+
 
