@@ -17,7 +17,7 @@ The scripts were written and executed by different authors as follows:
 * 300 series.  Eric C. Anderson, `eric.anderson@noaa.gov`
 
 The R scripts rely on a variety of packages that are either from CRAN or Bioconductor, 
-unless noted otherwise in the code (i.e., some are from GitHub repositories.)
+unless noted otherwise in the code.
 
 A few large, standard data sources like the WorldClim data set and Natural Earth Data
 which were used in analyses are not included here.  Those wishing to reproduce the
