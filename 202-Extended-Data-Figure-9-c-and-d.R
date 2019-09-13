@@ -86,7 +86,7 @@ write.table(genos, file="popSizes.txt",sep="\t")
 
 #trees
 #colfunc <- colorRampPalette(c("yellow", "red"))
-colFunc <- colorRampPalette(c("cornflowerblue","darkblue"))
+colfunc <- colorRampPalette(c("cornflowerblue","darkblue"))
 
 #pdf("./AARRtrees.pdf")
 
